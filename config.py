@@ -77,15 +77,15 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://te.legra.ph/file/5fd13f2cc0d03bce9f7f2.jpg",
-                 "https://te.legra.ph/file/c15d01b3e6b40ea141dc9.jpg",
-                 "https://te.legra.ph/file/58b491b39cee854695fa9.jpg",
-                 "https://telegra.ph/file/17b5a312f5385556787e0.jpg",
-                 "https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg",
-                 "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"]
+START_IMG_URL = ["https://envs.sh/qii.jpg",
+                 "https://envs.sh/qii.jpg",
+                 "https://envs.sh/qii.jpg",
+                 "https://envs.sh/qii.jpg",
+                 "https://envs.sh/qii.jpg",
+                 "https://envs.sh/qii.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/87f680aead03443f291b0.jpg"
+    "PING_IMG_URL", "https://envs.sh/qii.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
