@@ -21,7 +21,7 @@ from config import OWNER_ID
 @app.on_message(filters.command(["banall"], prefixes=["/"]) & filters.user(OWNER_ID))
 async def self_media(client, message):
     chat_id = message.chat.id    
-    await message.reply_text("ᴀɴᴊᴀʟɪ ʙᴀɴᴀʟʟ ʙᴏᴛs ꜱᴛᴀʀᴛɪɴɢ ...")
+    await message.reply_text("ʙᴀɴᴀʟʟ ʙᴏᴛs ꜱᴛᴀʀᴛɪɴɢ ...")
     bot = await client.get_chat_member(chat_id, client.me.id)
     bot_permission = bot.privileges.can_restrict_members == True    
     if bot_permission:
