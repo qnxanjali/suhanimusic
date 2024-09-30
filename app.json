@@ -1,5 +1,5 @@
 {
-    "name": " ──「 𝙎𝙖𝙣𝙖𝙩𝙖𝙣𝙞 ✘ 𝙈𝙪𝙨𝙞𝙘 」── ",
+    "name": " ──「 ᴀʟʟ ᴍᴜsɪᴄ ʙᴏᴛ 」── ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://graph.org/file/e47d7251464ca14a7f576.jpg",
     "keywords": [
@@ -38,7 +38,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
+        "description": "A Pyrogram v2 String Session from @TheAnjaliGenBot on Telegram.",
         "value": "",
         "required": true
       },
