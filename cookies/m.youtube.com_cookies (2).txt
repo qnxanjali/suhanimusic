@@ -1,5 +1,4 @@
 # Netscape HTTP Cookie File
-# http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
 .google.com	TRUE	/ads/measurement	TRUE	1727453749	TAID	AJHaeXJH6mDoG9tM69THAZFmnCYuUpyZbmWEKE_2onVh4w-zVed4YfwvHEz2OUXI0vNo05sH19MCdfQFWW_95w8tz4CzPavuXShPdq-yBTx6geqaV57ml_Bxq-Fu3pBez-7DsVnfLw
