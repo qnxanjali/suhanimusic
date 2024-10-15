@@ -16,20 +16,20 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from config import LOG_GROUP_ID, OWNER_ID
-from VIPMUSIC import Carbon, YouTube, app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import db
-from VIPMUSIC.utils.database import (
+from AnonXMusic import Carbon, YouTube, app
+from AnonXMusic.core.call import VIP
+from AnonXMusic.misc import db
+from AnonXMusic.utils.database import (
     add_active_video_chat,
     is_active_chat,
     is_video_allowed,
 )
-from VIPMUSIC.utils.exceptions import AssistantErr
-from VIPMUSIC.utils.inline.play import queue_markup, stream_markup, telegram_markup
-from VIPMUSIC.utils.inline.playlist import close_markup
-from VIPMUSIC.utils.pastebin import VIPbin
-from VIPMUSIC.utils.stream.queue import put_queue, put_queue_index
-from VIPMUSIC.utils.thumbnails import gen_qthumb, gen_thumb
+from AnonXMusic.utils.exceptions import AssistantErr
+from AnonXMusic.utils.inline.play import queue_markup, stream_markup, telegram_markup
+from AnonXMusic.utils.inline.playlist import close_markup
+from AnonXMusic.utils.pastebin import VIPbin
+from AnonXMusic.utils.stream.queue import put_queue, put_queue_index
+from AnonXMusic.utils.thumbnails import gen_qthumb, gen_thumb
 
 
 async def stream(
