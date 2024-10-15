@@ -12,10 +12,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from config import PRIVATE_BOT_MODE
 from config import SUPPORT_GROUP as SUPPORT_CHAT
 from strings import get_string
-from VIPMUSIC import YouTube, app
-from VIPMUSIC.core.call import _st_ as clean
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import (
+from AnonXMusic import YouTube, app
+from AnonXMusic.core.call import _st_ as clean
+from AnonXMusic.misc import SUDOERS
+from AnonXMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
