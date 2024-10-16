@@ -9,7 +9,7 @@
 #
 import asyncio
 from datetime import datetime, timedelta
-from typing import Union
+from typing import Anony
 
 from ntgcalls import TelegramServerError
 from pyrogram import Client
