@@ -27,7 +27,7 @@ from AnonXMusic.utils.database import (
 from AnonXMusic.utils.exceptions import AssistantErr
 from AnonXMusic.utils.inline.play import queue_markup, stream_markup, telegram_markup
 from AnonXMusic.utils.inline.playlist import close_markup
-from AnonXMusic.utils.pastebin import VIPbin
+from AnonXMusic.utils.pastebin import Anonybin
 from AnonXMusic.utils.stream.queue import put_queue, put_queue_index
 from AnonXMusic.utils.thumbnails import gen_qthumb, gen_thumb
 
