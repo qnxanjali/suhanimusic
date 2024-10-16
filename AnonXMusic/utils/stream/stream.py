@@ -17,7 +17,7 @@ from pyrogram.types import InlineKeyboardMarkup
 import config
 from config import LOG_GROUP_ID, OWNER_ID
 from AnonXMusic import Carbon, YouTube, app
-from AnonXMusic.core.call import VIP
+from AnonXMusic.core.call import Anony
 from AnonXMusic.misc import db
 from AnonXMusic.utils.database import (
     add_active_video_chat,
