@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1700))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", -1001964294961))
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/qnxanjali/ALLMUSICBOT",
+    "https://github.com/qnxanjali/suhanimusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ANJALINETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+b1gc4qrvfLZlNGI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/venompratap")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/venompratapchat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -77,18 +77,18 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://envs.sh/qii.jpg",
-                 "https://envs.sh/qii.jpg",
-                 "https://envs.sh/qii.jpg",
-                 "https://envs.sh/qii.jpg",
-                 "https://envs.sh/qii.jpg",
-                 "https://envs.sh/qii.jpg"]
+START_IMG_URL = ["https://envs.sh/TVO.jpg",
+                 "https://envs.sh/TVO.jpg",
+                 "https://envs.sh/TVO.jpg",
+                 "https://envs.sh/TVO.jpg",
+                 "https://envs.sh/TVO.jpg",
+                 "https://envs.sh/TVO.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/qii.jpg"
+    "PING_IMG_URL", "https://envs.sh/TVO.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/1dca3157eb1d637846d87.jpg"
-STATS_IMG_URL = "https://envs.sh/qii.jpg"
+STATS_IMG_URL = "https://envs.sh/TVO.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/29c8494278f990e910893.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/3df34a720f2d6d08f57c9.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/f6fcad691d6948d7a89af.jpg"
