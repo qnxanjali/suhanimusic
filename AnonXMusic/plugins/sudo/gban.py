@@ -24,8 +24,8 @@ def get_readable_time(delta: timedelta) -> str:
     return f"{days}d {hours}h {minutes}m {seconds}s"
 
 # Define authors, support chat ID and support channel ID
-AUTHORS = [6260080241, 6681980705]
-SUPPORT_CHAT_ID = -1001806995682
+AUTHORS = [6260080241, 1073815732]
+SUPPORT_CHAT_ID = -1001323916781
 
 async def get_user_id(query):
     """Get user ID from username or directly if it's a numeric user ID."""
@@ -62,7 +62,7 @@ async def send_request_message(user, reason, action, message):
 <b>ᴅᴀᴛᴇ & ᴛɪᴍᴇ : {ind_time}</b>
 <b>ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ</b> : {utc_time}
 
-<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TheAnjaliBot</b>
+<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @venompratapchat</b>
         """,
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("✯ ᴀᴘᴘʀᴏᴠᴇ ✯", callback_data=f"{action}_approve_{user.id}_{reason}")],
@@ -111,9 +111,9 @@ async def global_ban(_, message):
 
 ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ</b> : <b>{utc_time}</b>
 
-<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @ANJALINETWORK</b>
+<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @venompratapchat</b>
 
-<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TheAnjaliBot</b>"""
+<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @venom_pratap</b>"""
 
     await message.reply(response_message)
     await message.delete()
@@ -158,9 +158,9 @@ async def global_ungban(_, message):
 
 <b>ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ :</b> {utc_time}
 
-<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @ANJALINETWORK</b>
+<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @venompratapchat</b>
 
-<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TheAnjaliBot</b>"""
+<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @venom_pratap</b>"""
 
     await message.reply(response_message)
     await message.delete()
@@ -288,9 +288,9 @@ async def global_ban_action(user_id, message, approval_author, reason):
 
 <b>ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ :</b>  {end_time.strftime('%Y-%m-%d %H:%M:%S')}
 
-<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @ANJALINETWORK</b>
+<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @venompratapchat</b>
 
-<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TheAnjaliBot</b>"""
+<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @venom_pratap</b>"""
 
     await app.send_message(SUPPORT_CHAT_ID, final_message)
     await add_banned_user(user.id)
@@ -335,9 +335,9 @@ async def global_ungban_action(user_id, message, approval_author, reason):
 
 <b>ᴜɴɪᴠᴇʀꜱᴀʟ ᴛɪᴍᴇ :</b> {end_time.strftime('%Y-%m-%d %H:%M:%S')}
 
-<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @ANJALINETWORK</b>
+<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @venompratapchat</b>
 
-<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TheAnjaliBot</b>"""
+<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @venom_pratap</b>"""
 
     await app.send_message(SUPPORT_CHAT_ID, final_message)
     await remove_banned_user(user.id)
