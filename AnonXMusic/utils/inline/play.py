@@ -3,7 +3,7 @@ import math
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
-from AnonXMusi.utils.formatters import time_to_seconds
+from AnonXMusic.utils.formatters import time_to_seconds
 
 
 ## After Edits with Timer Bar
