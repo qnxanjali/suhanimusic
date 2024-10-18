@@ -5,6 +5,26 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import config
 from AnonXMusic.utils.formatters import time_to_seconds
 
+def track_markup(_, videoid, user_id, channel, fplay):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["P_B_1"],
+                callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
+            ),
+            InlineKeyboardButton(
+                text=_["P_B_2"],
+                callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"],
+                callback_data=f"forceclose {videoid}|{user_id}",
+            )
+        ],
+    ]
+    return buttons
 
 ## After Edits with Timer Bar
 
@@ -202,14 +222,10 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"{config.SUPPORT_GROUP}",
-            ),
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"],
+                text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
-        ]
+        ],
     ]
     return buttons
 
@@ -271,18 +287,6 @@ def slider_markup(
         ],
     ]
     return buttons
-
-## Extra Shit
-
-close_keyboard = InlineKeyboardMarkup( 
-            [
-                [
-                    InlineKeyboardButton(
-                        text="ᴄʟᴏꜱᴇ", callback_data="close"
-                    ),
-                ]    
-            ]
-        )
 
 
 ## Queue Markup
