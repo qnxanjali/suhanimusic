@@ -11,8 +11,8 @@ from youtubesearchpython.__future__ import VideosSearch
 from yt_dlp import YoutubeDL
 
 import config
-from VIPMUSIC.utils.database import is_on_off
-from VIPMUSIC.utils.formatters import time_to_seconds
+from AnonXMusic.utils.database import is_on_off
+from AnonXMusic.utils.formatters import time_to_seconds
 
 
 def cookie_txt_file():
